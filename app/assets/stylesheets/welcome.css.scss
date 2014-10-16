@@ -1,3 +1,53 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background: url("http://a4.urbancdn.com/w/s/Xf/S6X12JAVYBVWmE.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center, center
+}
+body{
+  background: transparent;
+}
+
+.container{
+  width: 500px;
+  float: left;
+
+}
+
+.sub-form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 10px 10px 10px 10px;
+  float: right;
+  background: white;
+
+}
+
+.form-horizontal{
+
+
+}
+.button{
+  float: left;
+
+}
+.image1{
+  width: 200px;
+  float: left;
+
+}
+.image2{
+  width: 200px;
+  float: left;
+}
+.image3{
+  width: 200px;
+  float: left;
+}
+.image4{
+  width: 200px;
+  float: left;
+}
