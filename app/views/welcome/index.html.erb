@@ -63,20 +63,21 @@
   </div>
  -->
 
-
 <div class="row">
   <div class="col-md-4">
-    Our best item is <%= @item1.name %><br><%= image_tag @item1.photo_path %></br>
+    Our best item is <%= @item1.name %><br><%= image_tag @item1.photo_path %>Click the link for more info</br>
+      <a href="/app/assets/images/"<%= item.id %>
+
+  <div class="col-md-4">
+    Our best item is <%= @item2.name %><br><%= image_tag @item2.photo_path %>Click the link for more info</br>
   </div>
 
   <div class="col-md-4">
-    Our best item is <%= @item2.name %><br><%= image_tag @item2.photo_path %></br>
-  </div>
-
-  <div class="col-md-4">
-    Our best item is <%= @item3.name %><br><%= image_tag @item3.photo_path %>
+    Our best item is <%= @item3.name %><br><%= image_tag @item3.photo_path %>Click the link for more info</br>
   </div>
 </div>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
